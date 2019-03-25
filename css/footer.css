@@ -1,0 +1,65 @@
+/*----------------------------footer---------------------------*/
+
+
+footer{
+    margin: 0%;
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+}
+#fcontainer{
+    display: flex;
+    display:inline-block;
+    justify-content: center;
+}
+.wrapper{
+    justify-content: center;
+    display: inline-block;
+}
+
+.links{
+    text-align: center;
+    padding-right: 560px;
+}
+
+footer ul li {
+    float: left;
+    display:inline-block;
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+footer ul li a{
+    font-size: 14px;
+    color:rgb(215, 10, 167);
+}
+
+.fsocial_icons{
+    float: right;
+    width: 100%;
+    margin: 0px;
+
+}
+.fsocial_icons ul.fsocials {
+    display:inline-block;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.fsocial_icons ul.fsocials li{
+    width: 55px;
+    margin: 0px 0px;
+}
+.fsocial_icons ul.fsocials li a{
+    text-decoration: none;
+    color:rgb(215, 10, 167);
+    font-size: 16px;
+}

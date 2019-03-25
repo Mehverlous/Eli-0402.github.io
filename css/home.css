@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(../images/website\ backdrop\ .png);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}    
+
+ul.navbar {
+    float: center;
+    margin: auto;
+    padding: 0%;
+    list-style: none;    
+    border-radius: 10px;
+}
+
+ul.navbar li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(254, 254, 253);
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+ul.navbar li a:hover {
+    background-color: rgb(215, 10, 167)
+}

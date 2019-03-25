@@ -1,0 +1,73 @@
+/*this css code describes the size of the image carosel*/
+#slider {
+    padding-top: 20px;
+    width: 600px;
+    overflow: hidden;
+}
+
+/*this css code adjusts the position and visiblity of the other images in the carosel*/
+#sliderbox {
+    position: relative;
+    width: 3600px;
+    animation-name: slideanimate;
+    animation-duration: 28s;
+    animation-iteration-count: infinite;
+
+}
+
+/*float left is to applied to the individual images in order to make them follow one another in a straight line*/
+#sliderbox img{
+    float: left;
+}
+
+/*this section of the css describes the movement of the speed at which the images move and the duration for which theu
+are in view each percentage refers to how much the imgae carosel should have moved to the left in a given time frame
+*/
+@keyframes slideanimate {
+    0%
+    {
+        left: 0px;
+    }
+    15%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: -600px;
+    }
+    35%
+    {
+        left: -600px;
+    }
+    40%
+    {
+        left: -1200px;
+    }
+    55%
+    {
+        left: -1200px;
+    }
+    60%
+    {
+        left: -1800px;
+    }
+    75%
+    {
+        left: -1800px;
+    }
+    80%
+    {
+        left: -2400px;
+    }
+    95%
+    {
+        left: -2400px;
+    }
+    100%
+    {
+        left: -3000px;
+    }
+
+   
+}

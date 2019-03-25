@@ -1,0 +1,81 @@
+.loginbox{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px;
+    background-color: rgb(254, 254, 253,.8);
+    margin-bottom: 100px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 50px);
+
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(1, 10, 17);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(215, 10, 167);
+    outline: none;
+    background: transparent;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(1, 10, 17);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputbox input:focus ~ label,
+.inputbox input:valid ~ label
+{
+    top: -18px;
+    left: 0;
+    color: rgb(194, 14, 140); 
+    font-size: 13px;
+}
+
+.loginbox button{
+    background:transparent;
+    border:none;
+    outline: none;
+    color: #fff;
+    background: rgb(215, 10, 167);
+    padding: 10px, 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#reset{
+    background:transparent;
+    border:none;
+    outline: none;
+    color: #fff;
+    background: rgb(215, 10, 167);
+    padding: 10px, 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,15 @@
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.mail button{
+    background:transparent;
+    border:none;
+    outline: none;
+    color: #fff;
+    background: rgb(215, 10, 167);
+    padding: 10px, 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
