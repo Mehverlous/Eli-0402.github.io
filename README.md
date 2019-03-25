@@ -1,2 +1,2 @@
-# Eli-0402.github.io
-This is a website for Ryandell Bakery
+# Rynadell_Foods-website
+This repository is for the development of a website for rynadell foods
